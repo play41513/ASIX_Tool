@@ -1,0 +1,16 @@
+//======================================================================
+// ASIX AX88772/772A/772B/760 Windows ProductionTest Driver
+// Revision History
+//
+// This document describes the major changes, additions and bug fixes made 
+// to the test tool between released versions. 
+//======================================================================
+
+Version 1.2.11.0 (2011-10-31)
+Corrected AX88772B PHY initialization setting.
+
+Version 1.2.10.0 (2011-01-12)
+Initial release base on AAX88772A_772B_760_772_TestDriver_WinXP2K_v1.0.10.0.
+
+
+ 

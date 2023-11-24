@@ -1,0 +1,30 @@
+//======================================================================
+// ASIX AX88179/178A Windows 64-bit Test Driver
+// Revision History
+//
+// This document describes the major changes, additions and bug fixes made 
+// to the driver between released versions. 
+//======================================================================
+
+Version 1.106.4.0 (2013-09-12)
+1. Updated "AutoDetach" parameter options.
+2. Changed the "Packet Priority & VLAN" defaule setting to "Priority & VLAN Enable".
+3. Changed the "Wake on pattern match" defaule setting to "Enable". 
+4. Changed the "Jumbo Frame" options strings to "2KB", "4KB".
+5. Updated KMDF library Version from 1.7 to 1.9.
+
+Version 1.6.3.0 (2012-12-24)
+1. Fixed compatibility issue with Gigabit switches.
+
+Version 1.6.2.0 (2012-07-09)
+1. Fixed a Speed Change ioctl issue.
+2. Added AX88178A PID support.
+
+Version 1.6.1.0 (2012-05-15)
+1. Fixed a driver unloaded issue while enabling the "Reload" option.
+2. Fixed a bug with uninitialized variable.
+3. Modified TX and RX function.
+4. Added Media Mode Speed Change ioctl.
+
+Version 1.6.0.0
+1. Initial release.
